@@ -11,7 +11,7 @@ const Navber = () => {
   return (
     <div className="bg-bg-white shadow-md">
       {/* Pc navber */}
-      <div className="max-w-[1200px] mx-auto py-[15px] flex items-center justify-between lg:block hidden">
+      <div className="max-w-[1200px] mx-auto py-[15px]  items-center justify-between lg:flex hidden">
         {/* Logo */}
         <div>
           <img src={logo} alt="" />
