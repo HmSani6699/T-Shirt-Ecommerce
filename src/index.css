@@ -1,4 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --font-instrument: "Instrument Sans", Arial, sans-serif;
+}
 
 @theme {
   --color-primary: #1e40af;
@@ -6,6 +11,6 @@
   --color-bg-white: #ffffff;
   --color-bg-black: #111111;
   --color-text-black: #111111;
-  --color-text-gray: #888888;
+  --color-text-gray: #5d5d5d;
   --color-text-white: #ffffff;
 }
