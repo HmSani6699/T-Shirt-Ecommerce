@@ -5,7 +5,7 @@ import Footer from "../../Pages/Footer/Footer";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navber />
       <Outlet />
       <Footer />
