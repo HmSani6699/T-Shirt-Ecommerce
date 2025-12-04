@@ -31,7 +31,7 @@ const Navber = () => {
       </div>
 
       {/* Mobile navber */}
-      <div className="flex items-center justify-between lg:hidden px-[20px] py-[10px]">
+      <div className="flex items-center justify-between lg:hidden px-5 py-2.5">
         <div>
           <RxHamburgerMenu className="text-text-black text-[20px] " />
         </div>
@@ -42,7 +42,7 @@ const Navber = () => {
         </div>
 
         {/* cart and search */}
-        <div className="flex items-center  gap-[20px]">
+        <div className="flex items-center gap-5">
           <FiSearch className="text-[20px] text-text-black" />
           <HiOutlineShoppingBag className="text-[21px] text-text-black" />
         </div>
