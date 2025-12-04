@@ -7,7 +7,7 @@ import Card from "../../../Component/Card/Card";
 
 const BestSelling = () => {
   return (
-    <div className="mt-[60px] max-w-[1200px] mx-auto flex flex-col items-center justify-center px-5">
+    <div className="mt-[50px] max-w-[1200px] mx-auto flex flex-col items-center justify-center px-5">
       {/* Head line */}
       <div className="text-center">
         <h2 className="font-instrument text-text-black text-[30px] font-semibold">
