@@ -1,5 +1,7 @@
 import { FaStar } from "react-icons/fa";
-import cardimage from "../../../../public/Images/card.webp";
+import cardimage1 from "../../../../public/Images/card4.avif";
+import cardimage2 from "../../../../public/Images/card3.avif";
+import cardimage3 from "../../../../public/Images/card2.avif";
 import { TbCurrencyTaka } from "react-icons/tb";
 import Card from "../../../Component/Card/Card";
 
@@ -19,15 +21,15 @@ const BestSelling = () => {
 
       {/* Card */}
       <div className=" hidden lg:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] gap-5 mt-10 w-full  ">
-        {[1, 2, 3, 4]?.map((item, i) => (
-          <Card key={i} />
+        {[cardimage1, cardimage2, cardimage3, cardimage1]?.map((item, i) => (
+          <Card key={i} data={item} />
         ))}
       </div>
 
       {/* Card */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] gap-5 mt-10 w-full lg:hidden ">
-        {[1, 2]?.map((item, i) => (
-          <Card key={i} />
+        {[cardimage1, cardimage2]?.map((item, i) => (
+          <Card key={i} data={item} />
         ))}
       </div>
     </div>
