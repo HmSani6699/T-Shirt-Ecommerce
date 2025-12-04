@@ -25,7 +25,7 @@ const BestSelling = () => {
       </div>
 
       {/* Card */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] gap-5 mt-10 w-full lg:block ">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-[30px] gap-5 mt-10 w-full lg:hidden ">
         {[1, 2]?.map((item, i) => (
           <Card key={i} />
         ))}
