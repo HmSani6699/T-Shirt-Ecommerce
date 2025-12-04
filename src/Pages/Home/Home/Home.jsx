@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import TopCollections from "../TopCollections/TopCollections";
 import BestSelling from "../BestSelling/BestSelling";
 import BigDeals from "../BigDeals/BigDeals";
+import TrendingOutfits from "../TrendingOutfits/TrendingOutfits";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <TopCollections />
       <BestSelling />
       <BigDeals />
+      <TrendingOutfits />
     </div>
   );
 };
