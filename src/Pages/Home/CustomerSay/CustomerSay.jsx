@@ -42,7 +42,7 @@ const CustomerSay = () => {
               Discover a collection of timeless wardrobe essentials, seamlessly
               transitioning from work to weekend. America prioritize ...🥰
             </p>
-            <hr className="my-5 border-t-[1px] border-gray-200" />
+            <hr className="my-5 border-t border-gray-200" />
 
             <div className="flex items-center gap-3">
               <div className="h-12 w-12 rounded-full">
@@ -97,7 +97,7 @@ const CustomerSay = () => {
               Discover a collection of timeless wardrobe essentials, seamlessly
               transitioning from work to weekend. America prioritize ...🥰
             </p>
-            <hr className="my-5 border-t-[1px] border-gray-200" />
+            <hr className="my-5 border-t border-gray-200" />
 
             <div className="flex items-center gap-3">
               <div className="h-12 w-12 rounded-full">
