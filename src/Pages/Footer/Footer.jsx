@@ -29,32 +29,36 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-[15%] mt-[30px] lg:mt-0">
-          <h1 className="text-text-black text-[18px] font-semibold mb-[30px] font-instrument">
-            Our Company
-          </h1>
-          <div className="flex flex-col gap-2.5 text-text-gray">
-            <p>Terms Of Use</p>
-            <p>Privacy Policy</p>
-            <p>About Us</p>
-            <p>Contact Us</p>
-            <p>FAQ</p>
-            <p>Store Location</p>
+
+        <div className="w-full flex lg:w-[30%]">
+          <div className="w-full lg:w-[50%] mt-[30px] lg:mt-0">
+            <h1 className="text-text-black text-[18px] font-semibold mb-[30px] font-instrument">
+              Our Company
+            </h1>
+            <div className="flex flex-col gap-2.5 text-text-gray">
+              <p>Terms Of Use</p>
+              <p>Privacy Policy</p>
+              <p>About Us</p>
+              <p>Contact Us</p>
+              <p>FAQ</p>
+              <p>Store Location</p>
+            </div>
+          </div>
+          <div className="w-full lg:w-[50%] mt-[30px] lg:mt-0">
+            <h1 className="text-text-black text-[18px] font-semibold mb-[30px] font-instrument">
+              Shop Categories
+            </h1>
+            <div className="flex flex-col gap-2.5 text-text-gray">
+              <p>Hot Deals</p>
+              <p>Best Seller</p>
+              <p>Sale & Special Offers</p>
+              <p>Activewear</p>
+              <p>Popular Trends</p>
+              <p>Croptop</p>
+            </div>
           </div>
         </div>
-        <div className="w-full lg:w-[15%] mt-[30px] lg:mt-0">
-          <h1 className="text-text-black text-[18px] font-semibold mb-[30px] font-instrument">
-            Shop Categories
-          </h1>
-          <div className="flex flex-col gap-2.5 text-text-gray">
-            <p>Hot Deals</p>
-            <p>Best Seller</p>
-            <p>Sale & Special Offers</p>
-            <p>Activewear</p>
-            <p>Popular Trends</p>
-            <p>Croptop</p>
-          </div>
-        </div>
+
         <div className="w-full lg:w-[35%] mt-[30px] lg:mt-0">
           <h1 className="text-text-black text-[18px] font-semibold mb-[30px] font-instrument">
             Sign Up to Newsletter

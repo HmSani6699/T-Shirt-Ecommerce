@@ -6,8 +6,12 @@ import { FaStar } from "react-icons/fa";
 const Card = ({ data }) => {
   return (
     <div className="w-full">
-      <div className=" h-[250px] lg:h-[300px] w-full rounded-[15px] ">
-        <img className="h-full w-full rounded-[15px]" src={data} alt="img" />
+      <div className=" h-[350px] lg:h-[300px] w-full rounded-[15px] ">
+        <img
+          className="h-full w-full rounded-[15px] object-cover"
+          src={data}
+          alt="img"
+        />
       </div>
 
       {/* Body */}

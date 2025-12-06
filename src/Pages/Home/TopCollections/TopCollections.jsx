@@ -45,7 +45,7 @@ const TopCollections = () => {
           className="pb-10"
         >
           {items.map((item, i) => (
-            <SwiperSlide className="pb-[50px]" key={i}>
+            <SwiperSlide className="pb-[60px]" key={i}>
               <div className="flex flex-col items-center">
                 <div className="h-full w-full rounded-full bg-primary overflow-hidden flex items-center justify-center">
                   <img
