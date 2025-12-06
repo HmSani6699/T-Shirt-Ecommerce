@@ -14,3 +14,49 @@
   --color-text-gray: #5d5d5d;
   --color-text-white: #ffffff;
 }
+
+/* Inactive bullets */
+.custom-bullet {
+  width: 6px;
+  height: 6px;
+  background: #d1d5db;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+/* Active bullet (middle ring + inner dot) */
+.custom-bullet-active {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #000; /* main ring */
+  border-radius: 50%;
+  position: relative;
+  margin: 0 6px;
+}
+
+/* Inner dot */
+.custom-bullet-active::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 🔥 Outer faint ring (this is what was missing!) */
+.custom-bullet-active::before {
+  content: "";
+  width: 20px; /* bigger than main bullet */
+  height: 20px;
+  border: 2px solid #d1d5db; /* light gray outer ring */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* goes behind */
+}
