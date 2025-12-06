@@ -11,7 +11,7 @@ import { IoMdClose } from "react-icons/io";
 const Navber = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   return (
-    <div className="bg-bg-white shadow-md relative">
+    <div className="bg-bg-white shadow-md relative px-5">
       {/* Pc navber */}
       <div className="max-w-[1200px] mx-auto py-[15px]  items-center justify-between lg:flex hidden">
         {/* Logo */}
@@ -33,7 +33,7 @@ const Navber = () => {
       </div>
 
       {/* Mobile navber */}
-      <div className="flex items-center justify-between lg:hidden px-5 py-2.5">
+      <div className="flex items-center justify-between lg:hidden  py-2.5">
         <div onClick={() => setIsOpenMenu(!isOpenMenu)}>
           <RxHamburgerMenu className="text-text-black text-[20px] " />
         </div>
