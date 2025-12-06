@@ -5,6 +5,7 @@ import BestSelling from "../BestSelling/BestSelling";
 import BigDeals from "../BigDeals/BigDeals";
 import TrendingOutfits from "../TrendingOutfits/TrendingOutfits";
 import CustomerSay from "../CustomerSay/CustomerSay";
+import ServiceHighlights from "../ServiceHighlights/ServiceHighlights";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <BigDeals />
       <TrendingOutfits />
       <CustomerSay />
+      <ServiceHighlights />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import bank from "../../../public/Images/bank.png";
 const Footer = () => {
   return (
     <div>
-      <div className="max-w-[1200px] mx-auto lg:flex  pt-[50px] lg:px-0 px-5 mt-[50px]">
+      <div className="max-w-[1200px] mx-auto lg:flex  lg:pt-[50px] lg:px-0 px-5 mt-5">
         <div className="w-full lg:w-[35%] lg:pr-[50px] ">
           <h1 className="text-text-black text-[25px] font-instrument">
             Help Customers
@@ -74,7 +74,7 @@ const Footer = () => {
           <img className="mt-10" src={bank} alt="bank" />
         </div>
       </div>
-      <p className="border-t  border-gray-400 py-6 mt-[50px] text-center text-text-gray">
+      <p className="border-t  border-gray-200 py-6 mt-[50px] text-center text-text-gray">
         © 2025 T-Shirt. All rights reserved.
       </p>
     </div>
