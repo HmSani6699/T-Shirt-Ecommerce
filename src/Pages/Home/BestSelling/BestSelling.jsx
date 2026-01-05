@@ -57,7 +57,7 @@ const TopCollections = () => {
       {/* Headline */}
       <div className="text-center">
         <h2 className="font-instrument text-[30px] font-semibold">
-          Top Collections
+          Best Selling
         </h2>
         <p className="text-text-gray mt-2.5">
           Express your style with our standout collection—fashion meets

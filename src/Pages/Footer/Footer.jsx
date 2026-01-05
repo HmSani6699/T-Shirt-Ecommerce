@@ -4,7 +4,7 @@ import bank from "../../../public/Images/bank.png";
 const Footer = () => {
   return (
     <div>
-      <div className="max-w-[1200px] mx-auto lg:flex  lg:pt-[50px] lg:px-0 px-5 mt-5">
+      <div className="max-w-[1200px] mx-auto lg:flex  lg:pt-[50px]  px-5 mt-5">
         <div className="w-full lg:w-[35%] lg:pr-[50px] ">
           <h1 className="text-text-black text-[25px] font-instrument">
             Help Customers

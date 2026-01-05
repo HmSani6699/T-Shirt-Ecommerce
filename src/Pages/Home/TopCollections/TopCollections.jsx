@@ -9,9 +9,12 @@ import tShirt4 from "../../../../public/Images/t-shirt4.jpg";
 
 import "swiper/css";
 import "swiper/css/pagination";
+import { useNavigate } from "react-router";
 
 const TopCollections = () => {
   const items = [tShirt, tShirt1, tShirt2, tShirt3, tShirt4, tShirt];
+
+  const navigate = useNavigate();
 
   return (
     <div className="mt-[60px] max-w-[1200px] mx-auto flex flex-col items-center px-5">
@@ -45,7 +48,11 @@ const TopCollections = () => {
           className="pb-10"
         >
           {items.map((item, i) => (
-            <SwiperSlide className="pb-[60px]" key={i}>
+            <SwiperSlide
+              onClick={() => navigate("/product/1")}
+              className="pb-[60px] cursor-pointer"
+              key={i}
+            >
               <div className="flex flex-col items-center">
                 <div className="h-full w-full rounded-full bg-primary overflow-hidden flex items-center justify-center">
                   <img

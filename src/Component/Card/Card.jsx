@@ -2,17 +2,20 @@ import { TbCurrencyTaka } from "react-icons/tb";
 import cardimage from "../../../public/Images/card.webp";
 
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Card = ({ data }) => {
   return (
     <div className="w-full">
-      <div className=" h-[350px] lg:h-[300px] w-full rounded-[15px] ">
-        <img
-          className="h-full w-full rounded-[15px] object-cover"
-          src={data}
-          alt="img"
-        />
-      </div>
+      <Link to={"/card/1"} className="">
+        <div className=" h-[350px] lg:h-[300px] w-full rounded-[15px] ">
+          <img
+            className="h-full w-full rounded-[15px] object-cover"
+            src={data}
+            alt="img"
+          />
+        </div>
+      </Link>
 
       {/* Body */}
       <div className="flex flex-col items-center justify-center">
@@ -63,7 +66,7 @@ const Card = ({ data }) => {
           </div>
         </div>
 
-        <button className="border border-gray-400 mt-5 w-full py-2 rounded-sm ">
+        <button className="border border-gray-400 mt-5 w-full py-2 rounded-sm hover:bg-black hover:text-white cursor-pointer">
           Add To Cart
         </button>
       </div>

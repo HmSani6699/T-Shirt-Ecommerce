@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../../public/Images/logo.svg";
 import TopNavlist from "../../Component/Navlist/TopNavlist";
+import { Link } from "react-router";
 import { PiUserBold } from "react-icons/pi";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import SearchInputField from "../../Component/SearchInputField/SearchInputField";
@@ -24,9 +25,9 @@ const Navber = () => {
         </div>
         {/* menu */}
         <div className="flex items-center gap-[35px]">
-          <TopNavlist title={"Home"} />
-          <TopNavlist title={"Product"} />
-          <TopNavlist title={"About US"} />
+          <TopNavlist title={"Home"} url={"/"} />
+          <TopNavlist title={"Product"} url={"/products"} />
+          <TopNavlist title={"About US"} url={"/about"} />
           <TopNavlist img={<PiUserBold className="text-[21px]" />} />
           <TopNavlist img={<HiOutlineShoppingBag className="text-[21px]" />} />
         </div>
@@ -78,12 +79,9 @@ const Navber = () => {
 
           {/* Example menu items */}
           <ul className="text-text-black px-4   bg-bg-white">
-            <li className="border-b border-gray-200 py-2.5">Home</li>
-            <li className="border-b border-gray-200 py-2.5">Shop</li>
-            <li className="border-b border-gray-200 py-2.5">Women</li>
-            <li className="border-b border-gray-200 py-2.5">Men</li>
-            <li className="border-b border-gray-200 py-2.5">Kids</li>
-            <li className="border-b border-gray-200 py-2.5">Contact</li>
+            <Link to="/" onClick={() => setIsOpenMenu(false)}><li className="border-b border-gray-200 py-2.5">Home</li></Link>
+            <Link to="/products" onClick={() => setIsOpenMenu(false)}><li className="border-b border-gray-200 py-2.5">Products</li></Link>
+            <Link to="/about" onClick={() => setIsOpenMenu(false)}><li className="border-b border-gray-200 py-2.5">About Us</li></Link>
           </ul>
         </div>
       </div>
